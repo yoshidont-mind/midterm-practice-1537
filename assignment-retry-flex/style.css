@@ -22,6 +22,54 @@
     background-color: #d6d4e0;
 }
 
+.border-box {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+#nav-logo img{
+    width: 200px;
+}
+
+#nav-menu li {
+    margin: 0 10px;
+}
+
+#nav-menu button {
+    border: none;
+    border-radius: 15px;
+}
+
+#nav-menu button a {
+    font-size: large;
+}
+
+#top-left {
+    width: 45%;
+}
+
+#top-right {
+    width: 55%;
+}
+
+#image-container-main img {
+    width: 100%;
+}
+
 footer {
     padding: 30px;
 }
