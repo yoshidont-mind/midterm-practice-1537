@@ -1,0 +1,12 @@
+- Header 40%
+  - Design & Layout 70%
+  - Responsiveness 15%
+  - Commit History 15%
+- Body 40%
+  - Design & Layout 70%
+  - Responsiveness 15%
+  - Commit History 15%
+- Footer 20%
+  - Design & Layout 70%
+  - Responsiveness 15%
+  - Commit History 15%
