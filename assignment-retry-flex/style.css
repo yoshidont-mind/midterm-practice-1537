@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 .flex-container {
     display: flex;
 }
@@ -22,8 +26,16 @@
     background-color: #d6d4e0;
 }
 
+.black {
+    color: black;
+}
+
 .border-box {
     box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
 }
 
 li {
@@ -60,18 +72,23 @@ nav {
 
 #top-left {
     width: 45%;
+    padding: 50px 10px 50px 30px;
 }
 
 #top-right {
     width: 55%;
+    padding: 50px 30px 50px 10px;
 }
 
 #main-left {
     width: 65%;
+    padding: 50px 25px 50px 50px;
 }
 
 #main-right {
     width: 35%;
+    padding: 50px 50px 50px 25px;
+    gap: 10px;
 }
 
 #image-container-main img {
@@ -80,6 +97,14 @@ nav {
 
 footer {
     padding: 30px;
+}
+
+#bottom-main {
+    width: 46%;
+}
+
+.bottom-sub {
+    width: 18%;
 }
 
 @media screen and (max-width: 768px) {
