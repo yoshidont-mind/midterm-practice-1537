@@ -1,3 +1,17 @@
 .font-serif {
     font-family: serif;
 }
+
+footer {
+    padding: 50px;
+    background-color: #b84b44;
+}
+footer button {
+    display: block;
+    padding: 10px 60px;
+    margin: auto;
+    color: #b84b44;
+}
+@media screen and (max-width: 768px) {
+    
+}
