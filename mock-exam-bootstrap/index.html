@@ -12,13 +12,21 @@
     crossorigin="anonymous"></script>
 
   <style>
+    .serif {
+      font-family: serif;
+    }
     @media screen and (max-width: 768px) {
       .img-container img {
         width: 100%;
       }
-
-      nav {
+      .nav-menu {
         display: none;
+      }
+      .top h1 {
+        width: 80%;
+      }
+      footer button {
+        width: 100%;
       }
     }
   </style>
@@ -27,15 +35,15 @@
 <body>
   <header>
     <nav class="row d-flex justify-content-between mt-2">
-      <div class="col d-flex justify-content-around  border-bottom border-top border-dark align-items-center">
+      <div class="nav-menu col d-flex-md justify-content-around  border-bottom border-top border-dark align-items-center">
         <a href="#" class="text-decoration-none text-dark">Math</a>
         <a href="#" class="text-decoration-none text-dark">Art</a>
         <a href="#" class="text-decoration-none text-dark">Astronomy</a>
       </div>
-      <div class="col d-flex text-danger justify-content-center align-items-center">
+      <div class="col text-center text-danger">
         <h1>LEONARDO DA VINCI</h1>
       </div>
-      <div class="col d-flex justify-content-around  border-bottom border-top border-dark align-items-center">
+      <div class="nav-menu col d-flex-md justify-content-around  border-bottom border-top border-dark align-items-center">
         <a href="#" class="text-decoration-none text-dark">Anatomy</a>
         <a href="#" class="text-decoration-none text-dark">Inventions</a>
         <a href="#" class="text-decoration-none text-dark">Wiki</a>
@@ -43,8 +51,8 @@
     </nav>
   </header>
   <main>
-    <div class="text-center p-5">
-      <h1>"Learning never exhausts the mind."</h1>
+    <div id="top" class="text-center p-5">
+      <h1 class="serif">"Learning never exhausts the mind."</h1>
       <h4 class="mt-5">- LEONARDO DA VINCI</h2>
     </div>
     <div class="row">
@@ -52,7 +60,7 @@
         <img src="Lady_with_an_Ermine_-_Leonardo_da_Vinci_(adjusted_levels).jpg" alt="">
       </div>
       <div class="col-md text-center">
-        <p>"There may not be in the world an example of another genius so universal, so incapable of fulfilment, so full
+        <p class="mt-4 serif">"There may not be in the world an example of another genius so universal, so incapable of fulfilment, so full
           of
           yearning for the infinite, so naturally refined, so far ahead of his own century and the following centuries."
         </p>
@@ -63,12 +71,12 @@
       </div>
     </div>
     <div class="w-50 m-auto text-center">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, animi, optio voluptatem magnam consequatur
+      <p class="mt-4 serif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, animi, optio voluptatem magnam consequatur
         inventore natus totam ea architecto, magni earum. Porro velit nemo reiciendis. Praesentium eius numquam odio
         consectetur!</p>
     </div>
   </main>
-  <footer class="bg-danger p-5 text-center">
+  <footer class="bg-danger py-5 text-center">
     <button class="d-inline-block px-5 py-1 text-danger">READ MORE ON WIKI</button>
   </footer>
 </body>
