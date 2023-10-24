@@ -81,3 +81,9 @@ nav {
 footer {
     padding: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    header, footer {
+        display: none;
+    }
+}
