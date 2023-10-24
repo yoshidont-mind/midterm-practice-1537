@@ -13,5 +13,11 @@ footer button {
     color: #b84b44;
 }
 @media screen and (max-width: 768px) {
-    
+    footer {
+        padding-left: 0;
+        padding-right: 0;
+    } 
+    footer button {
+        width: 100%;
+    }
 }
