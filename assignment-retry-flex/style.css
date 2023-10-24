@@ -1,3 +1,27 @@
 .flex-container {
     display: flex;
 }
+
+.colum {
+    flex-direction: column;
+}
+
+.bg-green {
+    background-color: #6a99a0;
+}
+
+.bg-purple {
+    background-color: #5b2967;
+}
+
+.purple {
+    color: #5b2967;
+}
+
+.bg-white-purple {
+    background-color: #d6d4e0;
+}
+
+footer {
+    padding: 30px;
+}
