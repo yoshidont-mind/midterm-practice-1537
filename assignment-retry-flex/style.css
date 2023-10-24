@@ -126,4 +126,17 @@ footer {
     header, footer {
         display: none;
     }
+
+    #top, #main-main {
+        display: block;
+    }
+
+    #top-left, #top-right, #main-left, #main-right {
+        width: 100%;
+    }
+
+    #top-left, #top-right {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
