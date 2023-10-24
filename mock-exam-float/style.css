@@ -2,6 +2,44 @@
     font-family: serif;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nav-menu {
+    width: 30%;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    padding: 5px;
+}
+
+#nav-center {
+    width: 40%;
+    display: inline-block;
+    color: #b84b44;
+}
+
+.nav-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 20px;
+}
 footer {
     padding: 50px;
     background-color: #b84b44;
