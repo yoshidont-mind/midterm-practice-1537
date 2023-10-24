@@ -54,7 +54,7 @@
     height: 500px;
 }
 
-#left-photo {
+#right-photo {
     text-align: right;
 }
 
@@ -76,8 +76,34 @@ footer button {
     color: #b84b44;
 }
 @media screen and (max-width: 768px) {
+    .float-left, .float-right {
+        float: none;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    #main-middle {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #bottom-article {
+        width: 90%;
+    }
+    
     .nav-menu {
         display: none;
+    }
+
+    #nav-center {
+        width: 100%;
     }
 
     footer {
