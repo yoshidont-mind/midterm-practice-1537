@@ -39,7 +39,7 @@
 .nav-menu li a {
     text-decoration: none;
     color: black;
-    margin: 5px 20px;
+    margin: 5px 15px;
 }
 
 .image-container {
@@ -76,7 +76,7 @@ footer button {
     color: #b84b44;
 }
 @media screen and (max-width: 768px) {
-    header {
+    .nav-menu {
         display: none;
     }
 
