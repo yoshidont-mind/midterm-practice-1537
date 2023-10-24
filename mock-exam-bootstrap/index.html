@@ -19,9 +19,6 @@
       .img-container img {
         width: 100%;
       }
-      .nav-menu {
-        display: none;
-      }
       .top h1 {
         width: 80%;
       }
@@ -35,25 +32,25 @@
 <body>
   <header>
     <nav class="row d-flex justify-content-between mt-2">
-      <ul class="nav-menu col d-flex-md justify-content-around  border-bottom border-top border-dark align-items-center">
-        <li><a href="#" class="text-decoration-none text-dark">Math</a></li>
-        <li><a href="#" class="text-decoration-none text-dark">Art</a></li>
-        <li><a href="#" class="text-decoration-none text-dark">Astronomy</a></li>
-      </ul>
+      <div class="col d-none d-md-flex justify-content-around  border-bottom border-top border-dark align-items-center">
+        <a href="#" class="text-decoration-none text-dark">Math</a>
+        <a href="#" class="text-decoration-none text-dark">Art</a>
+        <a href="#" class="text-decoration-none text-dark">Astronomy</a>
+      </div>
       <div class="col text-center text-danger">
         <h1>LEONARDO DA VINCI</h1>
       </div>
-      <ul class="nav-menu col d-flex-md justify-content-around  border-bottom border-top border-dark align-items-center">
+      <div class="col d-none d-md-flex justify-content-around  border-bottom border-top border-dark align-items-center">
         <a href="#" class="text-decoration-none text-dark">Anatomy</a>
         <a href="#" class="text-decoration-none text-dark">Inventions</a>
         <a href="#" class="text-decoration-none text-dark">Wiki</a>
-      </ul>
+      </div>
     </nav>
   </header>
   <main>
     <div id="top" class="text-center p-5">
       <h1 class="serif">"Learning never exhausts the mind."</h1>
-      <h4 class="mt-5">- LEONARDO DA VINCI</h2>
+      <h4 class="mt-5">- LEONARDO DA VINCI</h4>
     </div>
     <div class="row">
       <div class="col-md img-container">
@@ -64,7 +61,7 @@
           of
           yearning for the infinite, so naturally refined, so far ahead of his own century and the following centuries."
         </p>
-        <h4 class="text-center mt-4">- HIPPOLYTE TAINE</h2>
+        <h4 class="text-center mt-4">- HIPPOLYTE TAINE</h4>
       </div>
       <div class="col-md d-flex flex-row-reverse img-container">
         <img src="Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" alt="">
