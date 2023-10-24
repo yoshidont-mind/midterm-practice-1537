@@ -66,6 +66,14 @@ nav {
     width: 55%;
 }
 
+#main-left {
+    width: 65%;
+}
+
+#main-right {
+    width: 35%;
+}
+
 #image-container-main img {
     width: 100%;
 }
